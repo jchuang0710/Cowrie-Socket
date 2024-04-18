@@ -9,5 +9,5 @@
 3. 如需更改要求只需修改 data 的部分
 
 # 還原 VM 狀態
-1. 使用指令 <code> virt-install --name CentOS_8_Server --memory 2048 --vcpus 1 --disk /home/sk/CentOS_8_Server.qcow2,bus=sata --import --os-variant centos8 --network default </code>
+1. 使用指令 <code> virt-install --name CentOS_8_Server --memory 2048 --vcpus 1 --disk <snapshot-name>.qcow2,bus=sata --import --os-variant centos8 --network default </code>
 2. 記得選 deny ，不然會點不到 host 虛擬機
