@@ -7,3 +7,6 @@
 1. wazuh api 會透過 9200 去跟 wazuh indexer 要 data
 2. data 要求的類型我設為取得特定 ip 最新的 data
 3. 如需更改要求只需修改 data 的部分
+
+# 還原 VM 狀態
+1. 使用指令 <code> virt-install --name CentOS_8_Server --memory 2048 --vcpus 1 --disk /home/sk/CentOS_8_Server.qcow2,bus=sata --import --os-variant centos8 --network default </code>
